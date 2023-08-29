@@ -1,0 +1,31 @@
+body {
+  background-color: var(--color-raised-bg, #1f2227);
+  color: white;
+}
+
+input[type=text] {
+  width: 250px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #30353d;
+}
+
+button {
+  background-color: var(--color-brand);
+  color: var(--color-brand-inverted);
+}
