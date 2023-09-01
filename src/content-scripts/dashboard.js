@@ -7,9 +7,8 @@ setInterval(function () {
 }, 1000);
 
 window.parent.addEventListener("message", function (msg) {
-  console.log(msg);
   if (msg.data.cmd === "iframe-height") {
-    console.log("Changing height to " + msg.data.height);
+    console.log("Changing iframe height to " + msg.data.height);
     iframe_height = msg.data.height;
   }
 });
